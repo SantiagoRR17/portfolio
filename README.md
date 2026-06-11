@@ -1,30 +1,57 @@
-# Astro Starter Kit: Portfolio
+﻿# 🚀 My Personal Portfolio
 
-```sh
-npm create astro@latest -- --template portfolio
-```
+Welcome to the repository for my personal portfolio! This website serves as a digital resume and a showcase of my latest projects, skills, and professional experience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+## 🔗 Live Site
+[Yet to come x-x]
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ✨ Features
+- **Fast Performance:** Built with [Astro](https://astro.build/) for minimal client-side JavaScript.
+- **Responsive Design:** Looks great on mobile, tablet, and desktop.
+- **Dark/Light Mode:** Seamless theme toggling.
+- **Project Showcase:** Detailed markdown-based pages for each project.
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+## 🛠️ Tech Stack
+- **Framework:** Astro
+- **Styling:** Vanilla CSS
+- **Deployment:** yey to come x-x
 
-## 🧞 Commands
+## 🚀 Local Development
 
-All commands are run from the root of the project, from a terminal:
+Want to run this project locally? Follow these steps:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+1. **Clone the repository:**
+   ash
+   git clone https://github.com/SantiagoRR17/portfolio.git
+   
 
-## 👀 Want to learn more?
+2. **Install dependencies:**
+   ash
+   pnpm install
+   
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+3. **Start the development server:**
+   ash
+   pnpm run dev
+   
+
+4. **Open your browser:**
+   Open http://localhost:4321 to see the site running locally!
+
+## 📂 Project Structure
+
+	ext
+├── public/           # Static assets (images, fonts, background designs)
+├── src/
+│   ├── components/   # UI Components (Buttons, Nav, Footer, Hero)
+│   ├── content/      # Markdown files for portfolio projects (work/)
+│   ├── layouts/      # Page wrappers (BaseLayout)
+│   ├── pages/        # Astro pages (index, about, work, blog)
+│   └── styles/       # Global CSS
+├── astro.config.mjs  # Astro configuration
+└── package.json      # Project dependencies
+
+
+## 📫 Contact
+- **GitHub:** [@SantiagoRR17](https://github.com/SantiagoRR17)
+- **LinkedIn:** [www.linkedin.com/in/santiago-rocha-ramírez-827996204]
